@@ -9,4 +9,10 @@ int main(){
     int x;
     //cara membaca array dataku
     cout << "data ke - 3 : " << dataku[2]<<endl;
+
+    //Operasi Matematika
+    x = dataku[2]*3;
+    //cara menulis atau mengisi rray
+    dataku[2] = 600;
+    cout << "Data ke - 3 yang baru : " <<dataku[2]<<endl;
 }
